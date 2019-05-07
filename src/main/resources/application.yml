@@ -1,0 +1,10 @@
+server:
+  port: 9996
+eureka:
+  instance:
+    hostname:  Eureka-02
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9996/eureka/
