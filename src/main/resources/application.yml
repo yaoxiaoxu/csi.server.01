@@ -2,7 +2,7 @@ server:
   port: 9996
 eureka:
   instance:
-    hostname:  Eureka-02
+    hostname:  Eureka-01
   client:
     registerWithEureka: false
     fetchRegistry: false
